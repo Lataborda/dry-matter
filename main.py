@@ -25,7 +25,7 @@ st.video('data//materiaseca2.mp4')
 #insert variables
 
 
-st.subheader('A continuación incluya las siguientes mediciones')
+st.subheader('A continuación ingresar los pesos:')
 
 PS = st.number_input('Peso de la yuca sin sumergir en agua (gr)', 4500,6000)
 PA = st.number_input('Peso de yuca sumergida en agua (gr)', 200,800)
@@ -45,6 +45,9 @@ RG = int(PS) / int(GEd)
 
 MS1 = 158.26 * float(RG) - 142.05
 
+st.write('* **Utilizando la ecuación de CIAT et al., (1976), el porcentaje de materia seca para esta muestra es:**')
+st.subheader(round(MS1,2))
+
 if float(MS1)<30:
 	st.error('**El Porcentaje de materia seca es muy bajo**')
 
@@ -54,8 +57,6 @@ elif 34 > float(MS1) >= 30:
 elif float(MS1)>= 34:
 	st.success('**El Porcentaje de materia seca es alto**')
 
-st.write('* **Utilizando la ecuación de CIAT et al., (1976), el porcentaje de materia seca para esta muestra es:**')
-st.subheader(round(MS1,2))
 
 #Porcentaje de almidón
 Alm= float(MS1)*0.875
