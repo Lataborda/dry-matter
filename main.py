@@ -49,10 +49,10 @@ st.write('* **Utilizando la ecuación de CIAT et al., (1976), el porcentaje de m
 st.subheader(round(MS1,2))
 
 if float(MS1)<30:
-	st.error('**El Porcentaje de materia seca es muy bajo**')
+	st.error('**El Porcentaje de materia seca es bajo**')
 
 elif 34 > float(MS1) >= 30:
-	st.warning('**El Porcentaje de materia seca es aceptable**')
+	st.warning('**El Porcentaje de materia seca es promedio**')
 
 elif float(MS1)>= 34:
 	st.success('**El Porcentaje de materia seca es alto**')
