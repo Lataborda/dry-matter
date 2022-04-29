@@ -10,7 +10,7 @@ st.image('data//Logos.png')
 
 #Titulo
 st.write("""
-# Herramienta para medir el porcentaje de almidón de yuca 
+# Herramienta para medir el porcentaje de materia seca de yuca 
 
 Esta herramienta permite calcular el porcentaje de materia seca de la yuca. Para esto, es necesario registrar el peso exacto de una muestra de yuca (se sugiere utilizar una muestra de aproximadamente 5 kg), y el peso de esta misma muestra sumergida en el agua. En el siguiente video de puede observar un ejemplo del procedimiento
 """)
@@ -45,6 +45,14 @@ RG = int(PS) / int(GEd)
 
 MS1 = 158.26 * float(RG) - 142.05
 
+if float(MS1)<30:
+	st.error('**El Porcentaje de materia seca es muy bajo**')
+
+elif 34 > float(MS1) >= 30:
+	st.warning('**El Porcentaje de materia seca es aceptable**')
+
+elif float(MS1)>= 34:
+	st.success('**El Porcentaje de materia seca es alto**')
 
 st.write('* **Utilizando la ecuación de CIAT et al., (1976), el porcentaje de materia seca para esta muestra es:**')
 st.subheader(round(MS1,2))
@@ -52,18 +60,9 @@ st.subheader(round(MS1,2))
 #Porcentaje de almidón
 Alm= float(MS1)*0.875
 
-
 st.write('* *En promedio el almidón de la yuca representa el 87,5% de la materia seca, por lo tanto se puede concluir que el % de almidón de esta muestra es igual a:*')
 st.subheader(round(Alm,2))
 
-if float(Alm)<30:
-	st.error('**El Porcentaje de almidón es muy bajo**')
-
-elif 34 > float(Alm) >= 30:
-	st.warning('**El Porcentaje de almidón es aceptable**')
-
-elif float(Alm)>= 34:
-	st.success('**El Porcentaje de almidón es alto**')
 
 
 
