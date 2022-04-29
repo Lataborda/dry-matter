@@ -12,7 +12,7 @@ st.image('data//Logos.png')
 st.write("""
 # Herramienta para medir el porcentaje de materia seca de yuca 
 
-Esta herramienta permite calcular el porcentaje de materia seca de la yuca. Para esto, es necesario registrar el peso exacto de una muestra de yuca (se sugiere utilizar una muestra de aproximadamente 5 kg), y el peso de esta misma muestra sumergida en el agua. En el siguiente video de puede observar un ejemplo del procedimiento
+Esta herramienta permite calcular el porcentaje de materia seca de la yuca. Para esto, es necesario registrar el peso exacto de una muestra de yuca (aproximadamente 5 kg), y el peso de esta misma muestra sumergida en el agua. En el siguiente video se puede observar un ejemplo del procedimiento
 """)
 
 
