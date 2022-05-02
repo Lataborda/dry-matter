@@ -48,13 +48,13 @@ MS1 = 158.26 * float(RG) - 142.05
 st.write('* **Utilizando la ecuación de CIAT et al., (1976), el porcentaje de materia seca para esta muestra es:**')
 st.subheader(round(MS1,2))
 
-if float(MS1)<30:
+if float(MS1)<27:
 	st.error('**El Porcentaje de materia seca es bajo**')
 
-elif 34 > float(MS1) >= 30:
+elif 27 > float(MS1) >= 32:
 	st.warning('**El Porcentaje de materia seca es promedio**')
 
-elif float(MS1)>= 34:
+elif float(MS1)> 32:
 	st.success('**El Porcentaje de materia seca es alto**')
 
 
