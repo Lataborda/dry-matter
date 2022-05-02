@@ -51,7 +51,7 @@ st.subheader(round(MS1,2))
 if float(MS1)<27:
 	st.error('**El Porcentaje de materia seca es bajo**')
 
-elif 27 > float(MS1) >= 32:
+elif 27.01 > float(MS1) >= 31.99:
 	st.warning('**El Porcentaje de materia seca es promedio**')
 
 elif float(MS1)>= 32:
