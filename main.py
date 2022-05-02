@@ -54,7 +54,7 @@ if float(MS1)<27:
 elif 27 > float(MS1) >= 32:
 	st.warning('**El Porcentaje de materia seca es promedio**')
 
-elif float(MS1)> 32:
+elif float(MS1)>= 32:
 	st.success('**El Porcentaje de materia seca es alto**')
 
 
