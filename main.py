@@ -70,5 +70,5 @@ st.subheader(round(Alm,2))
 st.write('*NOTA: Los valores calculados en esta página con la ecuación de CIAT (1976) son indicativos. Para valores más precisos se recomiendan otros métodos tal como secado al horno (105°C por 24 horas)')
 
 st.markdown('*Copyright (C) 2022 CIRAD & CIAT*')
-st.markdown('**Authors: Luis Alejandro Taborda Andrade (latabordaa@unal.edu.co), Thierry Tran (thierry.tran@cirad.fr)**')
+st.markdown('**Authors: Luis Alejandro Taborda Andrade (latabordaa@unal.edu.co), Katia Contreras (kcontreras@agrosavia.co), Thierry Tran (thierry.tran@cirad.fr)**')
 
