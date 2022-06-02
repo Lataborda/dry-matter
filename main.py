@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np 
 
 
-st.image('data//Logos.png')
+st.image('data//Logos2.png')
 
 
 
