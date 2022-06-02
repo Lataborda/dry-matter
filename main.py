@@ -67,13 +67,8 @@ st.subheader(round(Alm,2))
 
 
 
-st.write('*NOTA: Los valores calculados en esta página con la ecuación de CIAT 1976 (Kawano et al. 1987; Keating et al. 1981) son indicativos. Para valores más precisos se recomiendan otros métodos tal como secado al horno (105°C por 24 horas) para la materia seca, y determinacion enzimatica de almidon (Holm et al. 1986) para el almidon.
-
-Esta herramienta esta a disposicion sin garantía de ningún tipo, ya sea expresa o implícita, incluyendo, pero sin limitarse a, las garantías implícitas de comerciabilidad o pertinencia para un propósito en particular; tanpoco sin garantía alguna en lo que respecta, entre otros, a cualquier daño, pérdida de información, pérdida de beneficios, responsabilidades y/o lesiones causadas por el uso de esta herramienta.')
-Referencias:
-Holm J., Björck I., Drews A., Asp N.G. (1986). A rapid method for the analysis of starch. Starch‐Stärke, 38(7), 224-226.
-Kawano K., Goncalves Fukuda W.M., Cenpukdee U. (1987). Genetic and environmental effects on dry matter content of cassava root. Crop Science 27, 69-74.
-Keating B.A., Breen A.R., Evenson J.P. (1981). Estimation of Starch and Total Fermentables Content in Storage Roots of Cassava (Manihot esculenta Crantz. Journal of the Science of Food and Agriculture 32, 997-1004.
+st.write('*NOTA: Los valores calculados en esta página con la ecuación de CIAT 1976 (Kawano et al. 1987; Keating et al. 1981) son indicativos. Para valores más precisos se recomiendan otros métodos tal como secado al horno (105°C por 24 horas) para la materia seca, y determinacion enzimatica de almidon (Holm et al. 1986) para el almidon. Esta herramienta esta a disposicion sin garantía de ningún tipo, ya sea expresa o implícita, incluyendo, pero sin limitarse a, las garantías implícitas de comerciabilidad o pertinencia para un propósito en particular; tanpoco sin garantía alguna en lo que respecta, entre otros, a cualquier daño, pérdida de información, pérdida de beneficios, responsabilidades y/o lesiones causadas por el uso de esta herramienta.')
+st.write('Referencias: -Holm J., Björck I., Drews A., Asp N.G. (1986). A rapid method for the analysis of starch. Starch‐Stärke, 38(7), 224-226. -Kawano K., Goncalves Fukuda W.M., Cenpukdee U. (1987). Genetic and environmental effects on dry matter content of cassava root. Crop Science 27, 69-74. -Keating B.A., Breen A.R., Evenson J.P. (1981). Estimation of Starch and Total Fermentables Content in Storage Roots of Cassava (Manihot esculenta Crantz. Journal of the Science of Food and Agriculture 32, 997-1004.')
 	 
 st.markdown('*Copyright (C) 2022 CIRAD & CIAT*')
 st.markdown('**Authores: Luis Alejandro Taborda Andrade (latabordaa@unal.edu.co), Katia Contreras (kcontreras@agrosavia.co), Thierry Tran (thierry.tran@cirad.fr)**')
