@@ -62,7 +62,7 @@ elif float(MS1)>= 32:
 Alm= float(MS1)*0.8
 
 st.write('* *El almidon de la yuca representa habitualmente entre 80 y 90% de la materia seca, con promedio 87.5%. Por lo tanto el porcentaje aproximado de almidón de esta muestra deberia esta por encima de:*')
-st.subheader(round(Alm,2))
+st.subheader(round(Alm,1))
 
 
 
