@@ -67,7 +67,7 @@ st.subheader(round(Alm,1))
 #Porcentaje de almidón recuperable
 AlmRe= float(MS1)*0.64
 
-st.write('* *el almidon extraible estimado como 64% de la materia seca:*')
+st.write('* *Solo una parte del almidon contenido en la yuca es extraible. Segun Hansupalak et al. (2016), el almidon recuperable representa 64% de la materia seca. Por lo tanto el porcentaje de almidon recuperable (con 13% de humedad) de esta muestra podria ser alrededor de:*')
 st.subheader(round(AlmRe,1))
 
 
