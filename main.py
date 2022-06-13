@@ -59,12 +59,16 @@ elif float(MS1)>= 32:
 
 
 #Porcentaje de almidón
-Alm= float(MS1)*0.8
+Alm= float(MS1)*0.875
 
-st.write('* *El almidon de la yuca representa habitualmente entre 80 y 90% de la materia seca, con promedio 87.5%. Por lo tanto el porcentaje aproximado de almidón de esta muestra deberia esta por encima de:*')
+st.write('* *El almidon de la yuca representa habitualmente entre 80 y 90% de la materia seca, con promedio 87.5%. Por lo tanto el porcentaje aproximado de almidón de esta muestra podría ser alrededor de:*')
 st.subheader(round(Alm,1))
 
+#Porcentaje de almidón recuperable
+AlmRe= float(MS1)*0.64
 
+st.write('* *el almidon extraible estimado como 64% de la materia seca:*')
+st.subheader(round(AlmRe,1))
 
 
 st.write('**NOTA**: Los valores calculados en esta página con la ecuación de CIAT 1976 (Kawano et al. 1987; Keating et al. 1981) son indicativos. Para valores más precisos se recomiendan otros métodos tal como secado al horno (105°C por 24 horas) para la materia seca, y determinacion enzimatica de almidon (Holm et al. 1986) para el almidon. Esta herramienta esta a disposicion sin garantía de ningún tipo, ya sea expresa o implícita, incluyendo, pero sin limitarse a, las garantías implícitas de comerciabilidad o pertinencia para un propósito en particular; tanpoco sin garantía alguna en lo que respecta, entre otros, a cualquier daño, pérdida de información, pérdida de beneficios, responsabilidades y/o lesiones causadas por el uso de esta herramienta.')
