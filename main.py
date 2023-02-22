@@ -44,7 +44,8 @@ RG = int(PS) / int(GEd)
 MS1 = 158.26 * float(RG) - 142.05
 
 st.write('* **Utilizando la ecuación de CIAT 1976 (Kawano et al. 1987), el porcentaje de materia seca para esta muestra es:**')
-st.subheader(round(MS1,1))
+#st.subheader(round(MS1,1))
+st.subheader(f"Porcentaje de materia seca: {round(MS1)}%")
 
 if float(MS1)<27:
 	st.error('**El Porcentaje de materia seca es bajo**')
